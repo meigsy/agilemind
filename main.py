@@ -1,16 +1,36 @@
-# This is a sample Python script.
+who = "developer"
+what = "to write code"
+why = "I can build a product"
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+notes = "\n-".join([
+    "I need to learn how to write code",
+    "I need to learn how to run code"
+])
 
+acceptance_criteria = "\n- ".join([
+    "I can run code",
+    "I can test code",
+    "I can deploy code",
+])
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
+context = f"""
+Description: 
 
+As a {who} I want {what} so that {why}.
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+Notes: 
+{notes}
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+Acceptance Criteria:
+{acceptance_criteria}
+"""
+
+plan_prompt = f"""
+Given the following context, develop a plan to complete the work:
+
+----------------------------------------
+CONTEXT:
+----------------------------------------
+{context}
+----------------------------------------
+"""
