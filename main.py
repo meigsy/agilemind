@@ -16,7 +16,7 @@ acceptance_criteria = "\n- ".join([
 context = f"""
 Description: 
 
-As a {who} I want {what} so that {why}.
+As a {who} I want {what} so {why}.
 
 Notes: 
 {notes}
