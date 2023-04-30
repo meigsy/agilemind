@@ -1,17 +1,13 @@
-who = "data engineer"
-what = "a data pipeline that can download and extract the NPPES data file"
-why = "so I can use it in my data pipeline"
+who = "founder"
+what = "to design a system that I can use to design systems"
+why = "I can use it to develop my ideas including the system itself"
 
 notes = "\n-".join([
-    "download url: https://download.cms.gov/nppes/NPPES_Data_Dissemination_April_2023.zip",
-    "the file is updated monthly",
-    "the download url is mostly static but the month and year change",
+    ""
 ])
 
 acceptance_criteria = "\n- ".join([
-    "the code downloads the file to my downloads folder (~/Downloads)",
-    "the code checks if the file is available to download weekly",
-    "if the file is available, the code downloads the file",
+    "",
 ])
 
 context = f"""
@@ -59,5 +55,5 @@ PLAN:
 """
 
 if __name__ == "__main__":
-    # print(plan_prompt)
-    print(plan_to_code_prompt)
+    print(plan_prompt)
+    # print(plan_to_code_prompt)

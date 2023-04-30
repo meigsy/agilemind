@@ -1,0 +1,23 @@
+Please take the following context and write objectives to help accomplish the goals of the context.
+
+----------------------------------------
+Context: Organization
+----------------------------------------
+
+Description:
+
+As a founder I want to develop an agentic AI application that uses agile principles to develop software so I can accelerate the productivity of developers.
+
+Notes:
+- The agile methodology is a great example of how an entity can recursively decompose problems and iteratively execute and adjust plans in order to accomplish high level goals
+- Organization goals are composed of objectives are composed of epics are composed of stories are accomplished by a plan
+- We can use this pattern to accomplish complex goals using LLMs
+- Agents follow a "plan, execute, evaluate" loop to accomplish story goals
+- During planning and evaluation an agent should take into account it's hierarchical context in order to ensure it's plans/actions align with goals of its parent and its parent's parent and so on.
+
+Objectives: 
+-  Develop an AI application that is able to analyze complex problems and decompose them into smaller, manageable tasks. 
+- Utilize agile principles to create a process for the AI application to iteratively execute and adjust plans in order to accomplish high level goals. 
+- Create an agentic AI application that is able to follow a “plan, execute, evaluate” loop to accomplish goals. 
+- Ensure that the AI application is taking into account its hierarchical context in order to ensure its plans and actions align with the goals of its parent and its parent’s parent. 
+- Accelerate the productivity of software developers by creating an AI application that is able to quickly analyze and decompose complex problems.
